@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  consolelinenotify:
+    image: consolelinenotify
+    build:
+      context: .\ConsoleLineNotify
+      dockerfile: Dockerfile
